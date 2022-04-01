@@ -1,0 +1,85 @@
+<html>
+
+         <head>
+             <title>
+              Fchallenge   
+             </title>
+           <link rel="stylesheet" type="text/css" href="style.css"> 
+           <script type="text/javascript" src="jquery.min.js"></script>
+          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = yes">
+         </head>
+         <body>
+             <div id="boss">
+         <div id="Wrapper2">
+            <div id="Wrapper-h">
+
+                <img src="images/illustration-thank-you.svg" id="himg">
+                <center>
+                <div id="feed"> hello</div>
+              <h3> Thank you!</h3>
+                <p>We appreciate you taking the time to give a rating. 
+                    if you ever need more support, dont hesitate to get in touch </p></center> 
+
+            </div>
+         </div>
+        
+             <div id="main">
+
+                 
+
+               <div id="Wrapper">
+                    <div id="holder">
+                   <div id="image">
+                       <div id="circle">
+                <img src="images/star.svg" id="img" >
+            </div>
+
+                <h2>
+                    How did we do?
+                </h2>
+                <p>
+                    Please let us know how we did with your support request. All feedback is appreciated to help us improve
+                    our offering
+                </p>
+                <div class="circle" id="n">1 </div>
+                <div class="circle" id="n">2</div>
+                <div class="circle" id="n">3</div>
+                <div class="circle" id="n">4</div>
+                <div class="circle" id="n">5</div>
+
+                <button id="button">Submit</button>
+                </div>
+            </div>
+
+                </div>
+
+</div>
+</div>
+
+<script type="text/javascript">
+var theNumb = "";
+
+var selectedN = $(".circle").click(function(){
+
+
+    theNumb = $(this).html()
+    $(this).css("background-color","white")
+
+
+})
+
+   
+    
+    document.getElementById("button").onclick =  function(){
+    
+        document.getElementById("Wrapper2").style.display = "inline"
+        
+
+    
+    document.getElementById("feed").innerHTML = "you selected " + theNumb + " out of " + " 5"
+}
+    </script>
+
+
+        </body>
+</html>

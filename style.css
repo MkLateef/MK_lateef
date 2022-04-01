@@ -1,0 +1,130 @@
+body{
+    background-color:hsl(216, 12%, 8%) ;
+    margin: 0;
+    padding: 0;
+    color:hsl(207, 10%, 82%);
+    font-family:[Overpass](https://fonts.google.com/specimen/Overpass);
+    
+} 
+h2{
+    color:hsl(0, 0%, 100%) ;
+}
+#holder{
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    
+}
+
+ #Wrapper{
+     background-color:hsl(213, 19%, 18%) ;
+     width: 400px;
+     height: 350px;
+     border-radius: 20px;
+     margin-top:15% ;
+     margin-left: 240px;
+    
+     position: absolute;
+     z-index: 1;
+     
+     
+ }
+ #Wrapper2{
+     background-color:hsl(213, 19%, 18%) ;
+     width: 400px;
+     height: 400px;
+     border-radius: 20px;
+     margin-top:15%  ;
+     margin-left: 413px;
+     padding-top: 40px;
+     position: absolute;
+     z-index: 3;
+     display: none;
+    
+
+ }
+ #button:hover{
+     background-color: white;
+ }
+     
+ 
+ #Wrapper-h{
+     width: 300px;
+     margin: 0 auto;
+     height: 400px;
+    
+ }
+ #himg{
+     margin: 20px 40px 20px 40px;
+     text-align: center;
+     vertical-align: middle;
+     line-height: 50%;
+     padding: 20px;
+ }
+ #feed{
+     width: 170px;
+     border-radius: 5px;
+     border: 1px solid ;
+     color: hsl(25, 97%, 53%);
+ }
+ #main{
+
+    width: 1000px;
+    height: 470px;
+    margin: 0 auto;
+    
+   
+ }
+ p{
+     font-size: 15px;
+ }
+ #image{
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+  
+ padding: 30px;
+ position: relative;
+    top: 20px;
+  
+ }
+ .circle{
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     float: left;
+     margin-right: 15px;
+     background-color: hsl(210, 5%, 62%)  ;
+     text-align: center;
+     vertical-align: middle;
+     line-height: 50px;
+     opacity: 1;
+     
+ }
+ #button{
+     margin-top: 20px;
+     width: 320px;
+     border-radius: 10px;
+     border: 1px solid hsl(25, 97%, 53%);
+     height: 30px;
+     background-color:  hsl(25, 97%, 53%);
+ }
+.circle:hover{
+
+background-color:  hsl(25, 97%, 53%);
+} 
+#img{
+  
+  background-color:hsl(213, 19%, 18%) ;
+}
+#circle{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+ background-color: color: rgb(182, 188, 192);
+  text-align: center;
+}
+@media screen and (max-width:999px){
+
+
+}
